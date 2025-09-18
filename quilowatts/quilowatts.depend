@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1758213589 source:/home/aluno/Documentos/lista1/quilowatts/main.c
+	<stdio.h>
+	<stdlib.h>
+
