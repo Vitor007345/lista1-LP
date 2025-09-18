@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1758197929 source:c:\users\vitor\onedrive\desktop\projetos em c\lista1logica\media\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+
