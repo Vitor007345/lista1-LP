@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1758284988 source:c:\users\vitor\onedrive\desktop\projetos em c\lista2logica\exercicio-02-listapalindromos\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+

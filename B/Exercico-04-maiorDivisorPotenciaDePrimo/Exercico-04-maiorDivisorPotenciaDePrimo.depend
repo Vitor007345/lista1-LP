@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1758317112 source:c:\users\vitor\onedrive\desktop\projetos em c\lista2logica\exercico-04-maiordivisorpotenciadeprimo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
