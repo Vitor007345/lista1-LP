@@ -29,6 +29,7 @@ int nextPrimo(int arrPrimos[], int length){
 }
 */
 
+
 int maiorDivisorPotPrimo(int n){
     int maiorDivisorPotPrimo = 0;
     int divisorTeste = 2;
@@ -49,6 +50,26 @@ int maiorDivisorPotPrimo(int n){
     return maiorDivisorPotPrimo;
 }
 
+
+//Versão menos eficiente mas mais simples
+/*
+int maiorDivisorPotPrimo(int n){
+    int maiorDivisorPotPrimo = 0;
+    int divisorTeste = 2;
+    while(n > 1){
+        int potDePrimo = 1;
+        while(n % divisorTeste == 0){
+            n /= divisorTeste;
+            potDePrimo *= divisorTeste;
+        }
+        if(potDePrimo > maiorDivisorPotPrimo){
+            maiorDivisorPotPrimo = potDePrimo;
+        }
+        divisorTeste++;
+    }
+    return maiorDivisorPotPrimo;
+}
+*/
 
 
 int main(){
