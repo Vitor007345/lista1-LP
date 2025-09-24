@@ -51,11 +51,9 @@ int maiorDivisorPotPrimo(int n){
 
 
 
-
-
 int main(){
     int n;
-    scanf("%d")
-    printf("%d", maiorDivisorPotPrimo(16));
+    scanf("%d", &n);
+    printf("%d", maiorDivisorPotPrimo(n));
     return 0;
 }
